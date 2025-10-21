@@ -390,3 +390,57 @@ footer p {
 }
 }
 
+/* Ajuste do banner responsivo */
+
+header {
+  background-image: url(img/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 70px 0;
+}
+
+header h1 {
+  color: #c12d26;
+  font-size: 100px;
+  margin-bottom: 10px;
+  word-break: break-word;
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding: 60px 0;
+    background-position: center top;
+  }
+
+  header h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 50px 0;
+    background-size: contain;   /* mostra o banner inteiro sem cortar */
+    background-position: center;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 40px 0;
+    background-size: contain;
+    background-position: center top;
+  }
+
+  header h1 {
+    font-size: 38px;
+    padding: 0 10px;
+    line-height: 1.2;
+  }
+}
