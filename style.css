@@ -90,9 +90,8 @@ header h1 {
 }
 
 .integrantes h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #fff1e5;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .integrante img {
