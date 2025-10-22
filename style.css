@@ -72,6 +72,13 @@ header h1 {
     text-align: center;
 }
 
+.integra{
+    color: #fff1e5;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 .integrante {
     background-color: #f9f9f9;
     border-radius: 10px;
